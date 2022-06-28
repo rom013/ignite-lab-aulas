@@ -13,7 +13,7 @@ module.exports = {
         '004': '0px 0px 4px',
       },
       backgroundImage: {
-        blur: 'url(/src/public/blur.png)'
+        blur: 'url(/src/assets/blur.png)'
       },
       fontFamily:{
         'sans': 'Roboto, sans-serif'

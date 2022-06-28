@@ -4,6 +4,7 @@ import { useState, FormEvent } from "react";
 import { useNavigate } from "react-router-dom";
 import { Logo } from "../components/Logo";
 import { useCreateSubscriberMutation } from "../graphql/generated";
+import print from '../assets/print.png'
 
 // const CREATE_SUBSCRIBE_MUTATION = gql`
 //     mutation CreateSubscriber($name: String!, $email: String!) {
@@ -89,7 +90,7 @@ export function Subscribe() {
                 </div>
                 <img
                     className="mt-10"
-                    src="src/public/print.png"
+                    src={print}
                     alt="print screen"
                 />
             </div>
