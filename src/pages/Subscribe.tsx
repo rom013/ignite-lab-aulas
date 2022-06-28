@@ -89,7 +89,7 @@ export function Subscribe() {
                 </div>
                 <img
                     className="mt-10"
-                    src="src/assets/print.png"
+                    src="src/public/print.png"
                     alt="print screen"
                 />
             </div>
